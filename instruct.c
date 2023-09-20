@@ -32,6 +32,7 @@ void instruct(stack_t **head, int cnt)
 	if (op[i].f == NULL)
 	{
 		fprintf(stderr, "L%d: unknown instruction %s\n", cnt, gl.buff);
+		_free(*head);
 		exit(EXIT_FAILURE);
 	}
 }
