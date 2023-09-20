@@ -16,6 +16,7 @@ void _push(stack_t **h, unsigned int cnt)
 	if (new == NULL)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
+		_free(new);
 		exit(EXIT_FAILURE);
 	}
 

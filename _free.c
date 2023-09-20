@@ -12,6 +12,4 @@ void _free(stack_t *h)
 		_free(h->next);
 		free(h);
 	}
-	free(gl.num);
-	free(gl.buff);
 }

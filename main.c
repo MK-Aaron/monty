@@ -48,5 +48,6 @@ int main(int ac, char **av)
 		count++;
 	}
 	fclose(ptr);
+	_free(head);
 	return (0);
 }
