@@ -11,14 +11,14 @@ void _push(stack_t **h, unsigned int cnt)
 {
 	stack_t *new;
 	int stacknum;
-	
+
 	new = malloc(sizeof(stack_t));
 	if (new == NULL)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
-	
+
 	if (gl.num == NULL && gl.num != 0)
 	{
 		fprintf(stderr, "L%u: usage: push integer\n", cnt);

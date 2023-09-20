@@ -41,7 +41,7 @@ int main(int ac, char **av)
 
 	while (fgets(buffer, sizeof(buffer), ptr))
 	{
-		gl.buff= strtok(buffer, " \t\n");
+		gl.buff = strtok(buffer, " \t\n");
 		gl.num = strtok(NULL, " \t\n");
 		if (gl.buff != NULL)
 			instruct(&head, count);

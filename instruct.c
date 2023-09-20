@@ -6,7 +6,7 @@
 /**
  * instruct - select opcode to be used
  * @head: pointer
- * @cnd count
+ * @cnt: count
  */
 
 void instruct(stack_t **head, int cnt)
@@ -23,7 +23,7 @@ void instruct(stack_t **head, int cnt)
 	{
 		if (strcmp(op[i].opcode, gl.buff) == 0)
 		{
-			op[i].f(head,cnt);
+			op[i].f(head, cnt);
 			break;
 		}
 		i++;
