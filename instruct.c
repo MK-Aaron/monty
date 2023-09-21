@@ -19,6 +19,7 @@ void instruct(stack_t **head, int cnt)
 		{"pint", _pint},
 		{"pop", _pop},
 		{"swap", _swap},
+		{"add", _add},
 		{NULL, NULL}
 	};
 
