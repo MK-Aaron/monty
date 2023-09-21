@@ -21,6 +21,9 @@ void instruct(stack_t **head, int cnt)
 		{"swap", _swap},
 		{"add", _add},
 		{"nop", _nop},
+		{"sub", _sub},
+		{"div", _div},
+		{"mul", _mul},
 		{NULL, NULL}
 	};
 

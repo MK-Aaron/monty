@@ -54,5 +54,8 @@ void _pop(stack_t **h, unsigned int cnt);
 void _swap(stack_t **h, unsigned int cnt);
 void _add(stack_t **h, unsigned int cnt);
 void _nop(stack_t **h, unsigned int cnt);
+void _sub(stack_t **h, unsigned int cnt);
+void _div(stack_t **h, unsigned int cnt);
+void _mul(stack_t **h, unsigned int cnt);
 
 #endif
