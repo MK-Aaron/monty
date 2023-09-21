@@ -15,18 +15,10 @@ int main(int ac, char **av)
 {
 	FILE *ptr;
 	char buffer[255];
-	char *ext;
 	int count = 1;
 	stack_t *head = NULL;
 
 	if (ac != 2)
-	{
-		fprintf(stderr, "USAGE: monty file\n");
-		return (EXIT_FAILURE);
-	}
-
-	ext = strrchr(av[1], '.');/* Check file extension */
-	if (ext == NULL || strcmp(ext, ".m") != 0)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
 		return (EXIT_FAILURE);

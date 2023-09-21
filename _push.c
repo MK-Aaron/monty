@@ -20,7 +20,7 @@ void _push(stack_t **h, unsigned int cnt)
 		exit(EXIT_FAILURE);
 	}
 
-	if (gl.num == NULL && gl.num != 0)
+	if (gl.num == NULL || if_digit(gl.num) != 0)
 	{
 		fprintf(stderr, "L%u: usage: push integer\n", cnt);
 		free(new);

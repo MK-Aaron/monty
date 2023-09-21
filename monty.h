@@ -48,5 +48,6 @@ void instruct(stack_t **head, int cnt);
 void _push(stack_t **h, unsigned int cnt);
 void _pall(stack_t **h, unsigned int cnt);
 void _free(stack_t *h);
+int if_digit(char *str);
 
 #endif
