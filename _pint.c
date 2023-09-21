@@ -11,7 +11,7 @@
 
 void _pint(stack_t **h, unsigned int cnt)
 {
-	if (h == NULL)
+	if (h == NULL || *h == NULL)
 	{
 		fprintf(stderr, "L%d: can't pint, stack empty", cnt);
 		_free(*h);

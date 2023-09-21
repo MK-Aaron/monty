@@ -16,6 +16,7 @@ void instruct(stack_t **head, int cnt)
 	instruction_t op[] = {
 		{"push", _push},
 		{"pall", _pall},
+		{"pint", _pint},
 		{NULL, NULL}
 	};
 
