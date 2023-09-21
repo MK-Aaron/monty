@@ -20,7 +20,7 @@ void _add(stack_t **h, unsigned int cnt)
 
 	if (len < 2)
 	{
-		fprintf(stderr, "L%d: can't swap, stack too short\n", cnt);
+		fprintf(stderr, "L%d: can't add, stack too short\n", cnt);
 		exit(EXIT_FAILURE);
 	}
 
