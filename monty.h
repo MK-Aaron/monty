@@ -51,5 +51,6 @@ void _free(stack_t *h);
 int if_digit(char *str);
 void _pint(stack_t **h, unsigned int cnt);
 void _pop(stack_t **h, unsigned int cnt);
+void _swap(stack_t **h, unsigned int cnt);
 
 #endif
