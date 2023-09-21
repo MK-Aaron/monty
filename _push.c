@@ -38,3 +38,14 @@ void _push(stack_t **h, unsigned int cnt)
 		*h = new;
 	}
 }
+
+/**
+ * _nop - Nothing.
+ * @ptr: pointer to the head of the stack
+ * @cnt: Number of the current line.
+ */
+void _nop(stack_t **h, unsigned int cnt)
+{
+	(void)h;
+	(void)cnt;
+}

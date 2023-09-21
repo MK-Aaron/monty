@@ -28,4 +28,5 @@ void _add(stack_t **h, unsigned int cnt)
 	(*h)->next->n = num;
 	free(*h);
 	*h = (*h)->next;
+	(*h)->prev = NULL;
 }
