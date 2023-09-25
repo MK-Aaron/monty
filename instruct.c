@@ -29,6 +29,8 @@ void instruct(stack_t **head, int cnt)
 
 	while (op[i].opcode)
 	{
+		if (gl.buff[0] == '#')
+			continue;
 		if (strcmp(op[i].opcode, gl.buff) == 0)
 		{
 			op[i].f(head, cnt);
